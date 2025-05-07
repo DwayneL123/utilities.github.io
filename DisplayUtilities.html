@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  </head>
+  <body>
+    <!--LEAÑO, DWAYNE MONTY-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <div class="container">
+        <h1 class="display-2">Task 1: Application of D-None,d-inline and d-block</h1>
+        <h1 class="bg-warning text-dark d-inline">This is an inline heading</h1>
+        <h1 class="bg-secondary text-white d-none">This heading is hidden</h1>
+        <span class="bg-danger text-white d-block">THIS IS A BLOCK SPAN</span>
+        <h1 class="d-none d-sm-block">Visible from SM and up</h1>
+        <h1 class="d-none d-lg-block">Visible from LG and up</h1>
+    </div>
+
+    <div class="container">
+        <h1 class="display-2">TASK 2: BREAKPOINTS WITH DISPLAY CONTROL
+          <br>
+          <span class="d-inline d-sm-none bg-primary"><strong>I'm Blue when XS</strong></span>
+          <span class="d-none d-sm-inline d-md-none bg-secondary"><strong>I'm Gray when SM</strong></span>
+          <span class="d-none d-md-inline d-lg-none bg-warning"><strong>I'm Yellow when MD</strong></span>
+          <span class="d-none d-lg-inline d-xl-none bg-info"><strong>I'm Cyan when LG</strong></span>
+          <span class="d-none d-xl-inline d-xxl-none bg-dark text-light"><strong>I'm Dark when XL</strong></span>
+          <span class="d-none d-xxl-inline bg-danger text-light"><strong>I'm Red when XXL</strong></span>
+        </h1>
+    </div>
+
+    
+    
+    <div class="container">
+        <h1 class="display-2">TASK 3: APPLICATION OF BORDER ADDITIVE</h1>
+        <div class="container p-3">
+        <span class="m-0 border border-primary text-dark p-5 d-inline-block">border, m-0</span>
+        <span class="m-1 border border-secondary text-dark p-5 d-inline-block">border, m-1</span>
+        <span class="m-2 border-start border-success text-dark p-5 d-inline-block">border-start, m-2</span>
+        <span class="m-3 border-end border-warning text-dark p-5 d-inline-block">border-end, m-3</span>
+        <span class="m-4 border-bottom border-danger text-dark p-5 d-inline-block">border-bottom, m-4</span>
+        <span class="m-5 border-start border-end border-info text-dark p-5 d-inline-block">border-start & border-end, m-5</span>
+    </div>
+
+    <div class="container">
+        <h1 class="display-2">Task 4: APPLICATION OF BORDER SUBTRACTIVE</h1>
+        <div class="d-flex">
+        <div class="me-5 border border-0 border-warning p-1 bg-light text-dark">border-start-0 with gray background, padding 1</div>
+        <div class="me-5 border border-start-0 border-primary p-2 bg-secondary text-light">border-start-0 with gray background, padding 2</div>
+        <div class="me-5 border border-end-0 border-secondary p-3 bg-primary text-warning">border-end-0 with background, padding 3</div>
+        <div class="me-5 border border-top-0 border-info p-4 bg-danger text-light">border-top-0 with red background, padding 4</div>
+        <div class="me-5 border border-bottom-0 border-danger p-5 bg-warning text-dark">border-bottom-0 yellow background, padding 5</div>
+
+    </div>
+    
+    <div class="container">
+      <h1 class="display-2">Task 5: APPLICATION OF BORDER WIDTH,COLOR AND RADIUS </h1>
+      <span class="border border-1 border-primary p-3 mb-3 d-inline-block">border-1</span>
+      <span class="border border-2 border-primary p-3 mb-3 d-inline-block">border-2</span>
+      <span class="border border-3 border-primary p-3 mb-3 d-inline-block">border-3</span>
+      <span class="border border-4 border-primary p-3 mb-3 d-inline-block">border-4</span>
+      <span class="border border-5 border-primary p-3 mb-3 d-inline-block">border-5</span>
+
+      <div class="d-flex mb-5 flex-wrap">
+        <span class="m-5 border border-primary p-5 d-inline-block">border-primary</span>
+        <span class="m-5 border border-secondary p-5 d-inline-block">border-secondary</span>
+        <span class="m-5 border border-success p-5 d-inline-block">border-success</span>
+        <span class="m-5 border border-danger p-5 d-inline-block">border-danger</span>
+        <span class="m-5 border border-warning p-5 d-inline-block">border-warning</span>
+        <span class="m-5 border border-info p-5 d-inline-block">border-info</span>
+        <span class="m-5 border border-light p-5 d-inline-block">border-light</span>
+        <span class="m-5 border border-dark p-5 d-inline-block">border-dark</span>
+        <span class="m-5 border border-white p-5 d-inline-block">border-white</span>
+      </div>
+
+      <div class="d-flex flex-wrap">
+        <span class="me-5 border bg-dark rounded text-white p-5 d-inline-block">rounded</span>
+        <span class="me-5 border bg-dark rounded-top text-white p-5 d-inline-block">rounded-top</span>
+        <span class="me-5 border bg-dark rounded-end text-white p-5 d-inline-block">rounded-end</span>
+        <span class="me-5 border bg-dark rounded-bottom text-white p-5 d-inline-block">rounded-bottom</span>
+        <span class="me-5 border bg-dark rounded-start text-white p-5 d-inline-block">rounded-start</span>
+        <span class="me-5 border bg-dark rounded-circle text-white p-5 d-inline-block">rounded-circle</span>
+        <span class="me-5 border bg-dark rounded-pill text-white p-5 d-inline-block">rounded-pill</span>
+      </div>
+
+    </div>
+
+    <div class="container">
+        <h1 class="display-2">Task 6: Application of rounded size and shadow.</h1>
+
+
+        <div class="d-flex mb-5">
+        <span class="me-5 border bg-light rounded-0 shadow-none text-dark p-5 d-inline-block">rounded-0, no shadow, light bg dark text</span>
+        <span class="me-5 border bg-light rounded-1 shadow-sm text-dark p-5 d-inline-block">rounded-1 small shadow, light bg dark text</span>
+        <span class="me-5 border bg-light rounded-2 shadow text-dark p-5 d-inline-block">rounded-2 regular shadow, light bg dark text</span>
+        <span class="me-5 border bg-light rounded-3 shadow-lg text-dark p-5 d-inline-block">rounded-3 large shadow, light bg dark text</span>
+    </div>
+  
+  </body>
+</html>
